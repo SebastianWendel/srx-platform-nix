@@ -1,0 +1,40 @@
+{ pkgs, ... }:
+{
+  environment.systemPackages = with pkgs; [
+    clevis
+    curl
+    ddrescue
+    direnv
+    dnsutils
+    gotop
+    htop
+    httpie
+    iftop
+    inetutils
+    iotop
+    ipcalc
+    jq
+    killall
+    kitty
+    lsof
+    mc
+    molly-guard
+    mtr
+    ncdu
+    nfs-utils
+    pstree
+    ranger
+    reptyr
+    ripgrep
+    screen
+    sshfs
+    sysstat
+    tree
+    tshark
+    wakelan
+    wget
+    whois
+    wol
+    yq
+  ];
+}

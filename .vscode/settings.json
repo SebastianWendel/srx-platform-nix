@@ -1,0 +1,33 @@
+{
+  "files.associations": {
+    "flake.lock": "json",
+    "*.hcl": "hcl",
+  },
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+  },
+  "[terraform-vars]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+  },
+  "[hcl]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+  },
+  "[nix]": {
+    "editor.defaultFormatter": "jnoortheen.nix-ide",
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.codeLens": true,
+    "emmet.triggerExpansionOnTab": true,
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on"
+    }
+  }
+}

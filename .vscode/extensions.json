@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "arrterian.nix-env-selector",
+    "bbenoist.nix",
+    "brettm12345.nixfmt-vscode",
+    "hashicorp.hcl",
+    "jnoortheen.nix-ide",
+    "mikestead.dotenv",
+  ],
+  "unwantedRecommendations": []
+}
